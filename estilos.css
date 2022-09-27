@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    header{
+    
+    display: flex;
+    justify-content: space-between;
+    background: orange;
+    align-items: center;
+    
+    padding: 10px;
+    }
+    #logo-empresa{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    
+    text-decoration: none;
+    color: ehite;
+    }
+    #logo{
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+    }
+    #empresa{
+    font-size: 40px;
+    }
+    /*Aplicamos estilos a la barra de navegacíon*/
+    nav .link-nav{
+    padding-right: 15px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #D0F;
+    font-weight: bold; /*aplicar negrita*/
+    }
+    nav .link-nav:hover{
+    color: blue;
+    }
+
+    body{
+        background: linear-gradient(90deg,white,#D0F );
+    }
+
+    nav .link-nav:hover{
+        background: linear-gradient(100deg,white,#D0F );
+        text-decoration: none;
+        border-radius: 100px;
+        padding: 20px;
+    }
+
+
+    #Contenedor{
+        width: 80%;
+        background-color: aqua;
+        margin: 20px auto;
+        padding: 30px;
+    }
+
+    #primeraseccion{
+        margin-top: 50px;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 30px;
+    }
+
+.imagen1{
+        width: 250px;
+    }
+
+    .artiseccion1{
+        text-align: center;
+        
+    }
+
+    
+    .artiseccion1 p{
+        text-align: justify;
+    }
+
+    #segundaseccion{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1px;
+        
+        border: solid black 2px;;
+        margin-top: 30px;
+        padding: 30px;
+    }
+
+    #video{
+        width:400px;
+        height: 250px;
+    } 
+
+    #artiseccion2{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    #artiseccion2 p{
+        text-align: justify;
+    
+    }
+
+    .imgfooter{
+        width: 50px;
+    }
+
+    footer{
+        height: 100px;
+        background-color: coral;
+        margin-top: 100px;
+
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    #titulo{
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    #terceraseccion{
+        margin-top: 50px;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 30px;
+    }
+
+    .imagen3{
+        width: 200px;
+    }
+
+    .artiseccion3{
+        text-align: center;
+        
+    }
+
+    .artiseccion3 p{
+        text-align: justify;
+    }
+
+   
